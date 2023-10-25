@@ -1,0 +1,96 @@
+/*top bar*/
+a{
+  color:black;
+  font-size: medium;
+}
+a:hover{
+  background-color: rgb(179, 181, 183);
+}
+body{
+  margin:0px 0px 0px 5px;
+  font-family: Verdana,  Tahoma, sans-serif;
+}
+h3{
+  padding:40px 0px 20px 0px;
+  border-bottom: 0.5px solid black;
+}
+
+.topbar a{
+ margin-bottom: 15px;
+  padding:10px 30px 10px 30px;
+  text-indent:10px ;
+  letter-spacing: 3px;
+  margin-top: 10px;
+}
+.elements a{
+    float:right;
+    text-decoration:none;
+    
+}
+#vitmitra a{
+  float:left;
+  font-weight:20px ;
+  text-decoration:none;
+  font-weight: 600;
+  
+}
+
+.heading h1{
+  text-align: center;
+  float:left;
+  width:100;
+  padding:300px 650px 300px 650px;
+  background-image: url("https://chennai.vit.ac.in/wp-content/uploads/2020/03/campus-banner.jpg ");
+  clear:both;
+  color: rgb(255, 255, 255);
+  margin:0px;
+  font-size: larger;
+}
+.features  {
+    clear:both;
+}
+ .features a{
+  
+  text-decoration: none;
+} 
+.all{
+  display:flex;
+  gap:40px;
+  
+}
+ .names{
+  display :flex;
+  gap:50px;
+  
+}
+
+.names a{
+  text-decoration: none;
+  text-align: justify;
+  padding :10px 270px 10px 10px;
+  background-color: rgb(245, 241, 241);
+  color:black;
+}
+.names a:hover{
+  background-color:rgb(179, 181, 183); ;
+}
+.forms input{
+  display:block;
+  padding:10px 0px 10px 0px;
+  margin:20px 0px 20px 0px;
+  width:100%;
+}
+.submit input{
+  background-color: black;
+  color:white;
+  height:35px;
+  width:200px;
+}
+
+footer{
+ text-align: center;
+ background-color: black;
+ color:aliceblue;
+ padding-bottom: 20px;
+ margin:20px 0px 20px 0px;
+}
