@@ -1,0 +1,33 @@
+a{
+    text-decoration: none;
+    padding : 5px 20px 5px 20px;
+    background-color: rgb(26, 6, 71);
+    border-radius: 2px;
+    color:aliceblue;
+}
+a:hover{
+    background-color: rgb(100, 111, 187);
+}
+body{
+    padding: 30px 20px 30px 20px;
+    background-color: beige;
+}
+h1{
+    text-align: center;
+}
+
+.two a{
+    padding-right: 116px;
+}
+.three a{
+    padding-right: 33px;
+}
+.issues a{
+    width: 100px;
+    margin-left: 650px;
+    line-height: 5ex;
+    
+}
+
+
+
