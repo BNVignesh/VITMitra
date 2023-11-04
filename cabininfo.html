@@ -1,22 +1,45 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>
-           Cabin-info
-        </title>
+        <title>Cabin-info</title>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
-        <link rel="stylesheet" href="cabininfo.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="tester.css">
+        <script>
+            function displayDetails() {
+                var input = document.getElementById('facultyname').value;
+                var detailsDiv = document.getElementById('details');
+                if (input.toLowerCase() === 'jayagopal') {
+                    detailsDiv.innerHTML = 'Details for Jayagopal: AB1-203 , Cabin 13';
+                } 
+                else if (input.toLowerCase() === 'valarmati') {
+                    detailsDiv.innerHTML = 'Details for valarmati: AB-3 , 5th floor';
+                }
+                else if (input.toLowerCase() === 'janmuna rani') {
+                    detailsDiv.innerHTML = 'Details for janmuna rani:AB3,5th floor ';
+                }
+                else if (input.toLowerCase() === 'harini') {
+                    detailsDiv.innerHTML = 'Details for harini: AB1, 3rd floor';
+                }
+                else if (input.toLowerCase() === 'sunil kumar') {
+                    detailsDiv.innerHTML = 'Details for Jayagopal: AB3, 5th floor';
+                }
+                
+                else {
+                    detailsDiv.innerHTML = 'Details not found for ' + input;
+                }
+            }
+        </script>
     </head>
 
     <body>
         <a href="index.html">VIT MITRA</a>
         <h1>Cabin-info</h1>
         <div class="issues">
-        <h2>Enter faculty name</h2>
-        <input type="text" name="facultyname" placeholder="Faculty name">
+            <h2>Enter faculty name</h2>
+            <input type="text" id="facultyname" placeholder="Faculty name">
+            <button onclick="displayDetails()">Display Details</button>
+            <div id="details"></div>
         </div>
     </body>
-
-
 </html>
